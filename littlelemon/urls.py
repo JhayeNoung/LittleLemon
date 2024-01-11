@@ -16,8 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from rest_framework.routers import DefaultRouter
+from restaurant import views
+
+#DefaultRouter class manage all urls, so you don't even to to create SingleBooking
+#you just type 'restaurant/booking/tables/1'
+router = DefaultRouter()
+router.register(r'tables', views.BookingView)
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('restaurant/', include('restaurant.urls')),
+    path('restaurant/booking/', include(router.urls))
 ]
