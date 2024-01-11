@@ -20,7 +20,7 @@ from rest_framework.routers import DefaultRouter
 from restaurant import views
 
 #DefaultRouter class manage all urls, so you don't even to to create SingleBooking
-#you just type 'restaurant/booking/tables/1'
+#you just type 'restaurant/booking/tables/1'.
 router = DefaultRouter()
 router.register(r'tables', views.BookingView)
 
