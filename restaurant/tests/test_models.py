@@ -4,4 +4,4 @@ from restaurant.models import MenuItem # Replace 'yourapp' with the actual name 
 class MenuItemTest(TestCase):
     def test_get_item(self):
         item = MenuItem.objects.create(title="IceCream", price=80, inventory=100)
-        self.assertEqual(item.price, 20)
+        self.assertEqual(item.price, 80)
