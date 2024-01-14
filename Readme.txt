@@ -13,3 +13,6 @@ password: admin
 
 user: james
 password: Littlelemon123@
+
+Note:
+I add the test folder in the app level. Thank you so much for the review.
