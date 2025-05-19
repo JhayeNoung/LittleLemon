@@ -1,18 +1,7 @@
-All Menu Items:
-http://127.0.0.1:8000/restaurant/menu/
+Part three of the final assessment utilized the functionalities of 
+JavaScript to dynamically process the available time slots and refresh 
+the available updated times. It also provides an update to dynamically 
+reload the template based on date change. You have successfully implemented 
+the Django final assessment to create a reservation form and add JavaScript 
+functionalities to dynamically update a form in a Django project. 
 
-Single Menu Item:
-http://127.0.0.1:8000/restaurant/menu/<int:id>
-
-For User Management:
-http://127.0.0.1:8000/restaurant/api-token-auth/
-
-Username and Password:
-user: admin
-password: admin
-
-user: james
-password: Littlelemon123@
-
-Note:
-I add the test folder in the app level. Thank you so much for the review.
