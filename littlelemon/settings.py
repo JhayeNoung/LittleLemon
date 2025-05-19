@@ -133,13 +133,13 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 # The settings for static files have been updated for the Graded assessment
-STATIC_URL = 'restaurant/static/'
+STATIC_URL = '/restaurant/static/'
 
 STATICFILES_DIRS = [
     "restaurant/static",
 ]
 
-STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")  # This is where collectstatic will put everything
+# STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")  # This is where collectstatic will put everything
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
